@@ -1,7 +1,6 @@
 <template>
 <div id="UNIQUE_COMPONENT_NAME">
-  <div>aaa</div>
-  <test/>
+
 </div>
 </template>
 
