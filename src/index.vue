@@ -1,60 +1,29 @@
 <template>
-  <div id="UNIQUE_COMPONENT_NAME" :style="freeStyle">
-    {{freeData.value}}
+  <div id="UNIQUE_COMPONENT_NAME">
+    <div
+      :style="{
+        color: freeStyle.fontColor,
+      }"
+      @click="funcName()"
+    >
+      {{ freeData.text }}
+    </div>
   </div>
 </template>
 
 <script>
+import freeConfig from "./free.config";
 export default {
   name: "UNIQUE_COMPONENT_NAME",
-  props: {
-    typography: {
-      type:Object,
-      default:()=>{
-        return {
-          width: "120px",
-          height: "120px",
-        }
-      }
-    },
-    freeStyle: {
-      type: Object,
-      default: () => {
-        return {
-          fontSize: '12px',
-        };
-      },
-    },
-    freeData: {
-      type: Object,
-      default: () => {
-        return {
-          value:"value"
-        };
-      },
-    },
-    freeConfig: {
-      type: Object,
-      default: () => {
-        return {
-          animation:""
-        };
-      },
-    },
-  },
+  freeConfig: freeConfig,
   data() {
-    return {
-      
-    };
+    return {};
   },
-  methods: {
-    
-  },
+  methods: {},
 };
 </script>
 
 <style rel="stylesheet/scss" lang="scss">
-#UNIQUE_COMPONENT_NAME{
-
+#UNIQUE_COMPONENT_NAME {
 }
 </style>

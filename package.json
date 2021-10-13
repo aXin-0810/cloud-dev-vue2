@@ -1,7 +1,7 @@
 {
   "name": "UNIQUE_COMPONENT_NAME",
   "version": "1.0.0",
-  "online-dev-type":"component",
+  "online-dev-type": "component",
   "description": "",
   "main": "index.js",
   "keywords": [],
