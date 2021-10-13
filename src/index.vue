@@ -1,5 +1,5 @@
 <template>
-  <div id="UNIQUE_COMPONENT_NAME">
+  <div id="$name">
     <div
       :style="{
         color: freeStyle.fontColor,
@@ -14,7 +14,7 @@
 <script>
 import freeConfig from "./free.config";
 export default {
-  name: "UNIQUE_COMPONENT_NAME",
+  name: "$name_version",
   freeConfig: freeConfig,
   data() {
     return {};
@@ -23,7 +23,5 @@ export default {
 };
 </script>
 
-<style rel="stylesheet/scss" lang="scss">
-#UNIQUE_COMPONENT_NAME {
-}
+<style rel="stylesheet/scss" lang="scss" scope>
 </style>

@@ -1,5 +1,6 @@
 {
-  "name": "UNIQUE_COMPONENT_NAME",
+  "name": "$name",
+  "nameCn": "$nameCn",
   "version": "1.0.0",
   "online-dev-type": "component",
   "description": "",
