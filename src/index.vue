@@ -1,5 +1,5 @@
 <template>
-  <div id="$name">
+  <div id="COMPONENT_NAME">
     <div
       :style="{
         color: freeStyle.fontColor,
@@ -14,7 +14,7 @@
 <script>
 import freeConfig from "./free.config";
 export default {
-  name: "$name_version",
+  name: "COMPONENT_NAME_VERSION",
   freeConfig: freeConfig,
   data() {
     return {};
