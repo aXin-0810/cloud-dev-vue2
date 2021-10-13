@@ -14,7 +14,7 @@
 <script>
 import freeConfig from "./free.config";
 export default {
-  name: "COMPONENT_NAME_VERSION",
+  name: "COMPONENT_VERSION",
   freeConfig: freeConfig,
   data() {
     return {};
