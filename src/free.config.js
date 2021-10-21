@@ -44,7 +44,7 @@ export default {
       // {label:"",value:""}
       selectData: [],
       // 更改数据时校验函数
-      validation: function (data) { },
+      validation: function (data) {},
       // 默认数据，数据类型与updateMode一致
       defaultValue: "hello world!",
     },
@@ -62,5 +62,5 @@ export default {
         console.log(paramet);
       },
     },
-  }
-}
+  },
+};

@@ -15,6 +15,12 @@
 import freeConfig from "./free.config";
 export default {
   name: "COMPONENT_VERSION",
+  components:{
+    // ...按需引入组件
+  },
+  use:{
+    // ...按需引入组件
+  },
   freeConfig: freeConfig,
   data() {
     return {};
