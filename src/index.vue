@@ -13,6 +13,7 @@
 
 <script>
 import freeConfig from "./free.config";
+import needRely from "./needRely";
 export default {
   name: "COMPONENT_VERSION",
   components:{
@@ -21,6 +22,7 @@ export default {
   use:{
     // ...按需引入组件
   },
+  needRely: needRely,
   freeConfig: freeConfig,
   data() {
     return {};
