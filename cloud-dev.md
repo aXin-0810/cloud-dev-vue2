@@ -1,10 +1,10 @@
 ## 启动在线开发
 
-- online-dev start
+- cloud-dev start
 
 ## 推送组件
 
-- online-dev push
+- cloud-dev push
 
 ## freeConfig 配置描述
 
@@ -22,8 +22,8 @@ export default {
    */
   rootTagLayout: {
     //...
-    width: "120px",
-    height: "120px",
+    width: '120px',
+    height: '120px',
   },
 
   /**
@@ -33,13 +33,13 @@ export default {
   freeStyle: {
     fontColor: {
       // 属性描述
-      label: "字体颜色",
+      label: '字体颜色',
 
       // 对应的style属性
-      type: "color",
+      type: 'color',
 
       // 默认数据
-      defaultValue: "#000000",
+      defaultValue: '#000000',
     },
   },
 
@@ -50,11 +50,11 @@ export default {
   freeData: {
     text: {
       // 属性描述
-      label: "文本内容",
+      label: '文本内容',
 
       // 更新模式
       // 【promise, object, string, number, boolean】
-      updateMode: "string",
+      updateMode: 'string',
 
       // 提供选择的数据只在updateMode为string/number/boolean有效
       // value类型为string/number/boolean
@@ -65,7 +65,7 @@ export default {
       validation: function (data) {},
 
       // 默认数据，数据类型与updateMode一致
-      defaultValue: "hello world!",
+      defaultValue: 'hello world!',
     },
   },
 
@@ -76,7 +76,7 @@ export default {
   freeBindMethods: {
     funcName: {
       // 函数描述
-      describe: "",
+      describe: '',
 
       // 默认函数
       defaultFunc: function (...paramet) {

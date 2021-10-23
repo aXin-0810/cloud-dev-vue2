@@ -1,3 +1,3 @@
 export default {
-  "element-ui": true,
+  'element-ui': true,
 };
