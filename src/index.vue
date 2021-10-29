@@ -1,5 +1,5 @@
 <template>
-  <div id="COMPONENT_VERSION">
+  <div>
     <div
       :style="{
         color: freeStyle.fontColor,
@@ -12,10 +12,10 @@
 </template>
 
 <script>
-import freeConfig from './free.config';
-import needRely from './needRely';
+import freeConfig from "./free.config";
+import needRely from "./needRely";
 export default {
-  name: 'COMPONENT_VERSION',
+  name: "COMPONENT_NAME",
   components: {
     // ...按需引入组件
   },

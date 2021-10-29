@@ -1,2 +1,2 @@
-import COMPONENT_VERSION from './src/index.vue';
-export default COMPONENT_VERSION;
+import COMPONENT_NAME from './src/index.vue';
+export default COMPONENT_NAME;
